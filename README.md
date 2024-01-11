@@ -7,4 +7,4 @@ User can -
 
 User can change his password
 In case user forgets his password, he can request an otp on his registered email & renew the password.
-This application is deployed in AWS Elastic Beanstalk. Link for the application: http://smartcontactmanager-env.eba-uwddcm4z.ap-south-1.elasticbeanstalk.com/signin
+
