@@ -1,0 +1,16 @@
+#cloud:             # This has been disabled due to issues arising while uploading in aws
+#  aws:
+#    credentials:
+#      access-key: ${AWS_ACCESS_KEY_ID}
+#      secret-key: ${AWS_SECRET_KEY}
+#    region:
+#      static: eu-north-1
+#    stack:
+#      auto: false
+      
+application:
+  bucket:
+    name: imagestoring-scm
+    
+    
+      

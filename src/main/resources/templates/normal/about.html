@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>About-Smart Contact Services</title>
+</head>
+<body>
+	<section class="banner">
+		<h1>&nbsp;&nbsp;About Our Contact Management App</h1>
+		<p>&nbsp;&nbsp;Welcome to our Contact Management Application, your go-to solution for effortlessly organizing 
+		and managing your contacts. Designed with simplicity and user-friendliness in mind, our application 
+		empowers you to stay connected with your network in a streamlined and efficient way.</p>
+		
+		<p><b>&nbsp;&nbsp;Key Features:</b></p>
+		
+		<p>&nbsp;&nbsp;1. <b>Add Contacts:</b> Seamlessly build your contact list by adding new connections with just a few taps. 
+		Capture essential details, ensuring you have comprehensive information at your fingertips.</p>
+		
+		<p>&nbsp;&nbsp;2. <b>Read Contacts:</b> Quickly access and view your entire contact list. Effortlessly scroll 
+		through your contacts or use our search feature to find the information you need in seconds.</p>
+		
+		<p>&nbsp;&nbsp;3. <b>Update Contacts:</b> Keep your contact information up-to-date effortlessly. 
+		Modify details such as phone numbers, addresses, and additional notes with ease, ensuring 
+		accuracy in your records.</p>
+		
+		<p>&nbsp;&nbsp;4. <b>Delete Contacts:</b> Remove outdated or unnecessary contacts in a snap. Our application 
+		makes it simple to declutter your contact list, keeping it relevant and efficient.</p>
+		
+		<p>&nbsp;&nbsp;5. <b>Profile modification:</b> Tailor your own profile to reflect the most current information about yourself. 
+		Update your details, change your profile picture, and ensure that your network sees the most accurate 
+		representation of who you are.</p>
+		
+		<p><b>&nbsp;&nbsp;Why Choose Our Contact Management App?</b></p>
+		
+		<p>&nbsp;&nbsp;Our application is designed with an intuitive and user-friendly interface, ensuring a 
+		hassle-free experience for users of all levels of tech-saviness.</p>
+		<p>&nbsp;&nbsp;We are committed to providing you with the best possible experience. Our team continuously works 
+		on updates and improvements to enhance the functionality and features of the app.</p>
+		
+		<script>
+		$(document).ready(()=>{
+			$(".nav-link").removeClass("active");
+			$("#about").addClass("active");
+		});
+		</script>
+	</section>
+</body>
+</html>
