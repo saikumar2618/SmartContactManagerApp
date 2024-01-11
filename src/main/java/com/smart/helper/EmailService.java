@@ -30,8 +30,8 @@ public class EmailService {
 		    props.put("mail.debug", "true");
 		    props.put("mail.store.protocol", "pop3");
 		    props.put("mail.transport.protocol", "smtp");
-		    final String username = "dummytestmail.dev@gmail.com";//
-		    final String password = "kmulzzodmmclkmky";
+		    final String username = ""; //Email
+		    final String password = ""; //password
 		    try{
 		      Session session = Session.getInstance(props, 
 		                          new Authenticator(){
@@ -43,7 +43,7 @@ public class EmailService {
 		      MimeMessage msg = new MimeMessage(session);
 
 		   // -- Set the FROM and TO fields --
-		      msg.setFrom(new InternetAddress("sai.iyer.98031@gmail.com"));
+		      msg.setFrom(new InternetAddress(""));
 		      msg.setRecipient(Message.RecipientType.TO, 
 		                        new InternetAddress(email_id));
 		      msg.setSubject("System generated email..Do not reply !!");

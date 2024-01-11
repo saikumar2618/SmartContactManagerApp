@@ -10,7 +10,7 @@
       
 application:
   bucket:
-    name: imagestoring-scm
+    name: #AWS_S3name
     
     
       
